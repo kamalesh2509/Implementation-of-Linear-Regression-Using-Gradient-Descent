@@ -21,7 +21,7 @@ Developed by: E Kamalesh
 RegisterNumber:  212222100019
 */
 ```
-
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -84,10 +84,9 @@ print("For Population = 35000, we predict a profit of $"+str(round(predict1,0)))
 
 predict2=predict(np.array([1,7]),theta)*10000
 print("For Population = 70000, we predict a profit of $"+str(round(predict2,0)))
-
+```
 
 ## Output:
-![linear regression using gradient descent](sam.png)
 
 ### Profit prediction:
 ![270279988-72c751de-9d20-419c-908d-f9d68e91d28e](https://github.com/kamalesh2509/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/120444689/f6b7b7cd-2a20-4269-9399-4f4fde26a45a)
